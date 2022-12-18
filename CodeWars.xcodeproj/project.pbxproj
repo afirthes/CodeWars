@@ -15,6 +15,7 @@
 		08F533C5294FA90000B623EC /* BalancedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C4294FA90000B623EC /* BalancedNumber.swift */; };
 		08F533C7294FB5D800B623EC /* SumOfOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C6294FB5D800B623EC /* SumOfOddNumbers.swift */; };
 		08F533C9294FBA5100B623EC /* AlphabeticalAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C8294FBA5100B623EC /* AlphabeticalAddition.swift */; };
+		08F533CB294FC05700B623EC /* PrinterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533CA294FC05700B623EC /* PrinterErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 		08F533C4294FA90000B623EC /* BalancedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedNumber.swift; sourceTree = "<group>"; };
 		08F533C6294FB5D800B623EC /* SumOfOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfOddNumbers.swift; sourceTree = "<group>"; };
 		08F533C8294FBA5100B623EC /* AlphabeticalAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabeticalAddition.swift; sourceTree = "<group>"; };
+		08F533CA294FC05700B623EC /* PrinterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				08F533C4294FA90000B623EC /* BalancedNumber.swift */,
 				08F533C6294FB5D800B623EC /* SumOfOddNumbers.swift */,
 				08F533C8294FBA5100B623EC /* AlphabeticalAddition.swift */,
+				08F533CA294FC05700B623EC /* PrinterErrors.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				08F533C5294FA90000B623EC /* BalancedNumber.swift in Sources */,
 				08F533B3294F90C900B623EC /* CountTheDigit.swift in Sources */,
 				08F533C9294FBA5100B623EC /* AlphabeticalAddition.swift in Sources */,
+				08F533CB294FC05700B623EC /* PrinterErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

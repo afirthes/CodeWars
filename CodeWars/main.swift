@@ -7,6 +7,8 @@
 
 import Foundation
 
+PrinterErrors().testBasic()
+
 AlphabeticalAddition().testBasic()
 
 SumOfOddNumbers().testBasic()
