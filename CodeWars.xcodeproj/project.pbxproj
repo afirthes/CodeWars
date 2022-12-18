@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		08F533AB294F90B000B623EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533AA294F90B000B623EC /* main.swift */; };
+		08F533B3294F90C900B623EC /* CountTheDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533B2294F90C900B623EC /* CountTheDigit.swift */; };
+		08F533B6294F910B00B623EC /* TestingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533B5294F910B00B623EC /* TestingHelper.swift */; };
+		08F533BE294F920000B623EC /* CodeWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533BD294F920000B623EC /* CodeWarsTests.swift */; };
+		08F533C3294FA1EF00B623EC /* StrongNumber .swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C2294FA1EF00B623EC /* StrongNumber .swift */; };
+		08F533C5294FA90000B623EC /* BalancedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C4294FA90000B623EC /* BalancedNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +30,23 @@
 /* Begin PBXFileReference section */
 		08F533A7294F90B000B623EC /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F533AA294F90B000B623EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		08F533B2294F90C900B623EC /* CountTheDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTheDigit.swift; sourceTree = "<group>"; };
+		08F533B5294F910B00B623EC /* TestingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingHelper.swift; sourceTree = "<group>"; };
+		08F533BB294F920000B623EC /* CodeWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F533BD294F920000B623EC /* CodeWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsTests.swift; sourceTree = "<group>"; };
+		08F533C2294FA1EF00B623EC /* StrongNumber .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StrongNumber .swift"; sourceTree = "<group>"; };
+		08F533C4294FA90000B623EC /* BalancedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		08F533A4294F90B000B623EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F533B8294F920000B623EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				08F533A9294F90B000B623EC /* CodeWars */,
+				08F533BC294F920000B623EC /* CodeWarsTests */,
 				08F533A8294F90B000B623EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				08F533A7294F90B000B623EC /* CodeWars */,
+				08F533BB294F920000B623EC /* CodeWarsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +77,37 @@
 		08F533A9294F90B000B623EC /* CodeWars */ = {
 			isa = PBXGroup;
 			children = (
+				08F533B4294F90F200B623EC /* Helpers */,
+				08F533B1294F90B600B623EC /* Solutions */,
 				08F533AA294F90B000B623EC /* main.swift */,
 			);
 			path = CodeWars;
+			sourceTree = "<group>";
+		};
+		08F533B1294F90B600B623EC /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				08F533B2294F90C900B623EC /* CountTheDigit.swift */,
+				08F533C2294FA1EF00B623EC /* StrongNumber .swift */,
+				08F533C4294FA90000B623EC /* BalancedNumber.swift */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		08F533B4294F90F200B623EC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				08F533B5294F910B00B623EC /* TestingHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		08F533BC294F920000B623EC /* CodeWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				08F533BD294F920000B623EC /* CodeWarsTests.swift */,
+			);
+			path = CodeWarsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +130,23 @@
 			productReference = 08F533A7294F90B000B623EC /* CodeWars */;
 			productType = "com.apple.product-type.tool";
 		};
+		08F533BA294F920000B623EC /* CodeWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F533BF294F920000B623EC /* Build configuration list for PBXNativeTarget "CodeWarsTests" */;
+			buildPhases = (
+				08F533B7294F920000B623EC /* Sources */,
+				08F533B8294F920000B623EC /* Frameworks */,
+				08F533B9294F920000B623EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeWarsTests;
+			productName = CodeWarsTests;
+			productReference = 08F533BB294F920000B623EC /* CodeWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +158,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					08F533A6294F90B000B623EC = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					08F533BA294F920000B623EC = {
 						CreatedOnToolsVersion = 13.2;
 					};
 				};
@@ -111,16 +179,39 @@
 			projectRoot = "";
 			targets = (
 				08F533A6294F90B000B623EC /* CodeWars */,
+				08F533BA294F920000B623EC /* CodeWarsTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F533B9294F920000B623EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08F533A3294F90B000B623EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F533C3294FA1EF00B623EC /* StrongNumber .swift in Sources */,
+				08F533B6294F910B00B623EC /* TestingHelper.swift in Sources */,
 				08F533AB294F90B000B623EC /* main.swift in Sources */,
+				08F533C5294FA90000B623EC /* BalancedNumber.swift in Sources */,
+				08F533B3294F90C900B623EC /* CountTheDigit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F533B7294F920000B623EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F533BE294F920000B623EC /* CodeWarsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +355,36 @@
 			};
 			name = Release;
 		};
+		08F533C0294F920000B623EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQ5FDJWTRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.afirthes.CodeWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		08F533C1294F920000B623EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQ5FDJWTRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.afirthes.CodeWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -281,6 +402,15 @@
 			buildConfigurations = (
 				08F533AF294F90B000B623EC /* Debug */,
 				08F533B0294F90B000B623EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F533BF294F920000B623EC /* Build configuration list for PBXNativeTarget "CodeWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F533C0294F920000B623EC /* Debug */,
+				08F533C1294F920000B623EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

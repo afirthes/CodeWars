@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+
+CountTheDigit().testExample()
+
+StrongNumber().basicTests()
+
+BalancedNumber().balancedTests()
+BalancedNumber().notBalancedTests()
+
 
