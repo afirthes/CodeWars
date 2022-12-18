@@ -21,9 +21,9 @@ import Foundation
 class BalancedNumber {
     
     func balancedNumber(_ number: Int) -> String {
-        var arr:[Int] = Array("\(number)").map{ Int("\($0)")! }
-        var left:Int = 0
-        var right:Int = 0
+        let arr:[Int] = Array("\(number)").map{ Int("\($0)")! }
+        var _:Int = 0
+        var _:Int = 0
         
         if (arr.count == 1) {
             return "Balanced"
@@ -47,8 +47,8 @@ class BalancedNumber {
             x3 = arr.count - 1
         }
         
-        var leftArr = arr[x0...x1]
-        var rightArr = arr[x2...x3]
+        let leftArr = arr[x0...x1]
+        let rightArr = arr[x2...x3]
         
         if leftArr.reduce(0, +) == rightArr.reduce(0, +) {
             return "Balanced"

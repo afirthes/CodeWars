@@ -7,6 +7,9 @@
 
 import Foundation
 
+AlphabeticalAddition().testBasic()
+
+SumOfOddNumbers().testBasic()
 
 CountTheDigit().testExample()
 

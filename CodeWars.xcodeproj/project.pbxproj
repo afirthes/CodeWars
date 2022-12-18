@@ -13,6 +13,8 @@
 		08F533BE294F920000B623EC /* CodeWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533BD294F920000B623EC /* CodeWarsTests.swift */; };
 		08F533C3294FA1EF00B623EC /* StrongNumber .swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C2294FA1EF00B623EC /* StrongNumber .swift */; };
 		08F533C5294FA90000B623EC /* BalancedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C4294FA90000B623EC /* BalancedNumber.swift */; };
+		08F533C7294FB5D800B623EC /* SumOfOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C6294FB5D800B623EC /* SumOfOddNumbers.swift */; };
+		08F533C9294FBA5100B623EC /* AlphabeticalAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F533C8294FBA5100B623EC /* AlphabeticalAddition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,8 @@
 		08F533BD294F920000B623EC /* CodeWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsTests.swift; sourceTree = "<group>"; };
 		08F533C2294FA1EF00B623EC /* StrongNumber .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StrongNumber .swift"; sourceTree = "<group>"; };
 		08F533C4294FA90000B623EC /* BalancedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedNumber.swift; sourceTree = "<group>"; };
+		08F533C6294FB5D800B623EC /* SumOfOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfOddNumbers.swift; sourceTree = "<group>"; };
+		08F533C8294FBA5100B623EC /* AlphabeticalAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabeticalAddition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				08F533B2294F90C900B623EC /* CountTheDigit.swift */,
 				08F533C2294FA1EF00B623EC /* StrongNumber .swift */,
 				08F533C4294FA90000B623EC /* BalancedNumber.swift */,
+				08F533C6294FB5D800B623EC /* SumOfOddNumbers.swift */,
+				08F533C8294FBA5100B623EC /* AlphabeticalAddition.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -202,8 +208,10 @@
 				08F533C3294FA1EF00B623EC /* StrongNumber .swift in Sources */,
 				08F533B6294F910B00B623EC /* TestingHelper.swift in Sources */,
 				08F533AB294F90B000B623EC /* main.swift in Sources */,
+				08F533C7294FB5D800B623EC /* SumOfOddNumbers.swift in Sources */,
 				08F533C5294FA90000B623EC /* BalancedNumber.swift in Sources */,
 				08F533B3294F90C900B623EC /* CountTheDigit.swift in Sources */,
+				08F533C9294FBA5100B623EC /* AlphabeticalAddition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
